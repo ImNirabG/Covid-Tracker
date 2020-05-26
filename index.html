@@ -1,5 +1,15 @@
+<!-- /*-----------------------------------------------------------------------------------*/
+/*  Personal Website - Hardik Shrestha - hardik.ho@gmail.com
+    Created on May 25, 2020
+    github.com/Hardik-S
+/*-----------------------------------------------------------------------------------*/ -->
+
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- /*-----------------------------------------------------------------------------------*/
+/*  meta, Title, Icon, Fonts, CSS libraries, File links
+/*-----------------------------------------------------------------------------------*/ -->
 
 <head>
   <!-- meta -->
@@ -28,13 +38,18 @@
   <!-- Responsive css -->
   <link href="css/responsive.css" rel="stylesheet">
 
-  <!-- Favicon -->
+  <!-- Favourite icon -->
   <link rel="shortcut icon" href="../images/favicon2.png">
 
 </head>
 
 <body>
 
+<!-- /*-----------------------------------------------------------------------------------*/
+/*  Navigation Bar
+    Appears on scroll
+    Smooth scroll enabled
+/*-----------------------------------------------------------------------------------*/ -->
   <!-- start section navbar -->
   <nav id="main-nav">
     <div class="row">
@@ -60,6 +75,9 @@
   </nav>
   <!-- End section navbar -->
 
+<!-- /*-----------------------------------------------------------------------------------*/
+/*  Header, Desktop vs. Mobile, Social links
+/*-----------------------------------------------------------------------------------*/ -->
   <!-- start section header -->
 
   <div id="header" class="home header content">
@@ -484,28 +502,28 @@
 
                 <div class="col-lg-6">
                   <div class="form-group contact-block1">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:2" data-msg="Your name must be at least 2 characters." />
                     <div class="validation"></div>
                   </div>
                 </div>
 
                 <div class="col-lg-6">
                   <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email!" />
                     <div class="validation"></div>
                   </div>
                 </div>
 
                 <div class="col-lg-12">
                   <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Subject too short." />
                     <div class="validation"></div>
                   </div>
                 </div>
 
                 <div class="col-lg-12">
                   <div class="form-group">
-                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for me to read!" placeholder="Message"></textarea>
                     <div class="validation"></div>
                   </div>
                 </div>
@@ -538,16 +556,17 @@
 
       </div>
 
-
+      <!-- Shoutout to Exurb1a, my current favorite youtuber -->
       <div class="credits">
         <p style="color:#b8a07e";>"It's not angel jazz, it's not magic, just scientists on coffee and applied mathematics!" <a href="https://www.youtube.com/channel/UCimiUgDLbi6P17BdaCZpVbg"target="_blank">- Exurb1a</a></p>
       </div>
+
 
     </div>
   </div>
   <!-- End section footer -->
 
-  <!-- cheater code here (launches js) -->
+  <!-- cheater code here (launches js but creates space, I believe it is due to something in the actual JS libraries) -->
   <div id="large-header">
     <canvas id="demo-canvas"></canvas>
   </div>
