@@ -451,23 +451,45 @@ nav ul li a {
   height: auto;
   width: 100%;
   background: #f7f7f7;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
   position: relative;
 }
 
 #journal-blog {
   background: #fff;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 #journal .journal-block {
   display: inline-block;
+  overflow: hidden;
+  margin-bottom: 0px;
   height: auto;
   width: 100%;
 }
 
 #journal .journal-block .journal-info {
   position: relative;
+}
+
+#journal .div-img-bg1 {
+  border: 5px solid #000000;
+}
+
+#journal .div-img-bg2 {
+  border: 5px solid #ffca9f;
+}
+
+#journal .div-img-bg3 {
+  border: 5px solid #acffac;
+}
+
+#journal .div-img-bg .journal-img img {
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .journal-block .journal-info img {
@@ -507,6 +529,7 @@ nav ul li a {
   font-size: 14px;
   line-height: 24px;
 }
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
@@ -644,9 +667,9 @@ nav ul li a {
 }
 
 .btn-hover-lt::before {
-	transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	content: '';
-	width: 50%;
+	width: 0%;
 	height: 100%;
 	background: #b8a07e;
 	position: absolute;
