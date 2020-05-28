@@ -555,7 +555,7 @@ nav ul li a {
 }
 
 
-#contact  #sendmessage {
+#contact  #sendmessage{
   color: #18d26e;
   border: 1px solid #18d26e;
   display: none;
@@ -576,7 +576,8 @@ nav ul li a {
 }
 
 #contact #sendmessage.show, #contact #errormessage.show, #contact .show {
-  display: block;
+  display: inline-block;
+  
 }
 
 #contact .validation {
