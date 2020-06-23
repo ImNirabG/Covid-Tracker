@@ -714,3 +714,8 @@ nav ul li a {
   background-position: center center;
   z-index: 1;
 }
+
+ion-icon {
+  font-size: 40px;
+  color: #b8a07e;
+}
