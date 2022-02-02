@@ -2,8 +2,8 @@
 /*-----------------------------------------------------------------------------------*/
 
 body {
-  background: #808080;
-  color: #898989;
+  background: #898989;
+  color: #89899;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -24,18 +24,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #292929;
+  color: #898989;
   font-weight: 600;
 }
 
 h4 {
-  color: #292929;
+  color: #898989;
   font-size: 14px;
   font-weight: 600;
 }
 
 a {
-  color: #292929;
+  color: #898989;
   text-decoration: none !important;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
