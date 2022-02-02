@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Love.", "Effort.", "25000+ lines of code", "Endless nights of editing!", "and the passion of 2 aspiring developers."],
+      strings: ["Lots of Love.", "Tons of Effort.", "20000+ lines of code", "Endless nights of editing!", "and the passion of 2 aspiring developers."],
       typeSpeed: 50,
       loop: true,
     });
