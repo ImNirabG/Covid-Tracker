@@ -2,8 +2,8 @@
 /*-----------------------------------------------------------------------------------*/
 
 body {
-  background: #898989;
-  color: #89899;
+  background: #ffffff;
+  color: #898989;
   font-family: 'Poppins', helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -24,18 +24,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #898989;
+  color: #292929;
   font-weight: 600;
 }
 
 h4 {
-  color: #898989;
+  color: #292929;
   font-size: 14px;
   font-weight: 600;
 }
 
 a {
-  color: #898989;
+  color: #292929;
   text-decoration: none !important;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -83,12 +83,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #898989;
+  background: #b8a07e;
   color: #fff;
 }
 
 ::selection {
-  background: #898989;
+  background: #b8a07e;
   color: #fff;
 }
 
@@ -157,7 +157,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #898989;
+  background: #b8a07e;
 }
 
 .mb-30 {
@@ -547,7 +547,7 @@ nav ul li a {
 }
 
 .contact-details li {
-  padding-bottom: 400px;
+  padding-bottom: 10px;
 }
 
 #contact input, #contact textarea {
