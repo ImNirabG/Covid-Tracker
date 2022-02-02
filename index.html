@@ -94,8 +94,56 @@
             </div>
           </div>
 
-       
+          <div class="col-lg-6">
+            <form action="https://script.google.com/macros/s/AKfycbxTqokXBDRtyIykcJhYJEeH_FM0VZk0qBfylG-D0a0A8dlu8xI/exec" method="post" role="form" class="contactForm">
+              <div class="row">
+
+                <!-- <div id="sendmessage">Your message has been sent. Thank you!</div> -->
+                <div id="errormessage"></div>
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:2" data-msg="Your name must be at least 2 characters." />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email!" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Subject too short." />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for me to read!" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12 text-center">
+                  <button id="sendMessageButton" class="sim-btn btn-hover-lt btn-send" type="submit"><span class="btn-text sendmessage">Send Message</span></button>
+                  <div id="sendmessage">Your message has been sent. Thank you!</div>
+                </div>
+
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- end section contact -->
+
 
   <!-- cheater code here (launches js but creates space, I believe it is due to something in the actual JS libraries) -->
   <!-- 2022 update is, I couldn't figure it out. Next just create a new website from a template tbh, you have a lot you can copy from here -->
