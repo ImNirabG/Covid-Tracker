@@ -83,12 +83,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #898989;
   color: #fff;
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #898989;
   color: #fff;
 }
 
@@ -157,7 +157,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #898989;
 }
 
 .mb-30 {
