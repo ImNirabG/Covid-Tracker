@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Hardik Shrestha.", "an empowered student.", "a problem-Solver!", "a learning enthusiast!", "a chess player."],
+      strings: ["Love.", "Effort.", "25000+ lines of code", "Endless nights of editing!", "and the passion of 2 aspiring developers."],
       typeSpeed: 50,
       loop: true,
     });
