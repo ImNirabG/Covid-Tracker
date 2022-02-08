@@ -150,5 +150,8 @@ $(window).load(function(){
     portfolioIsotope.isotope({ filter: $(this).data('filter') });
   });
   
-
+  //sdfsd/
+  $(".menu-activator").on("click", function() {
+  $("body").toggleClass("menu-active");
+});
 })
