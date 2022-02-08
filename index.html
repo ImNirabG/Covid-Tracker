@@ -1,6 +1,8 @@
 <!-------------------------------------------------------------------------------------
     Covid-19 Tracker - Nirab and Arjan - 852007@pdsb.net
-    Created on February 2 2022/
+    Devolopment Commenced on February 5 2022/
+    ImRJN.github.io
+    github.com/ImNirabG
     ImNirabG.github.io
     github.com/ImNirabG
 ------------------------------------------------------------------------------------->
@@ -9,7 +11,7 @@
 <html lang="en">
 
 <!-- /*-----------------------------------------------------------------------------------*/
-/*  meta, Title, Icon, Fonts, CSS libraries, File links
+/*  Data Integration Function Commands 
 /*-----------------------------------------------------------------------------------*/ -->
 
 <head>
@@ -21,13 +23,13 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
-  <!-- Google Fonts -->
+  <!-- Text Font From Google - Main Page -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
+  <!-- CSS File from a Bootstrap CSS Framework -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
+  <!-- Libraries for CSS Files -->
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -39,8 +41,6 @@
   <!-- Responsive css -->
   <link href="css/responsive.css" rel="stylesheet">
 
-  <!-- Favourite icon -->
-  <link rel="shortcut icon" href="../images/favicon2.png">
 
 </head>
 
@@ -53,9 +53,9 @@
 /*-----------------------------------------------------------------------------------*/ -->
 
 <!-- /*-----------------------------------------------------------------------------------*/
-/*  Header, Desktop vs. Mobile, Social links
+/*  Main Page Coding
 /*-----------------------------------------------------------------------------------*/ -->
-  <!-- start section header -->
+  <!-- Section header begins -->
 
   <div id="header" class="home header content">
     <canvas id="demo-canvas"></canvas>
@@ -70,14 +70,23 @@
     </div>
   </div>
 
-  <!-- End section header -->
-    
+  <!-- section header ends -->
+  <!-- Data Embedding - Different Dataset Interegration - Relative to Covid Data -->
     <iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="800px"></iframe>
     
     <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&time=2020-03-01..latest&facet=none&pickerSort=desc&pickerMetric=new_deaths_per_million&Metric=Confirmed+deaths&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&country=IND~USA~GBR~CAN~DEU~FRA&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
-    <iframe src="https://ourworldindata.org/grapher/daily-covid-vaccination-doses-per-capita?time=latest" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
-    <iframe src="https://ourworldindata.org/grapher/current-covid-patients-hospital?tab=map" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
- 
+    
+    <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&facet=none&pickerSort=asc&pickerMetric=location&Metric=People+vaccinated+%28by+dose%29&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&country=ARE~PRT~CUB~CHL~SGP~CHN~IND~USA~IDN~PAK~BRA~NGA~BGD~RUS~MEX~JPN~ETH~PHL~EGY~VNM~TUR~IRN~DEU~THA~GBR~CAN~FRA~ITA~OWID_WRL&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+    
+    <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&facet=none&pickerSort=asc&pickerMetric=location&Metric=People+vaccinated+%28by+dose%29&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&country=ARE~PRT~CUB~CHL~SGP~CHN~IND~USA~IDN~PAK~BRA~NGA~BGD~RUS~MEX~JPN~ETH~PHL~EGY~VNM~TUR~IRN~DEU~THA~GBR~CAN~FRA~ITA~OWID_WRL&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+    
+    
+    <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&facet=none&pickerSort=asc&pickerMetric=location&Metric=People+vaccinated+%28by+dose%29&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&country=ARE~PRT~CUB~CHL~SGP~CHN~IND~USA~IDN~PAK~BRA~NGA~BGD~RUS~MEX~JPN~ETH~PHL~EGY~VNM~TUR~IRN~DEU~THA~GBR~CAN~FRA~ITA~OWID_WRL&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+    
+    
+    <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&facet=none&pickerSort=asc&pickerMetric=location&Metric=People+vaccinated+%28by+dose%29&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&country=ARE~PRT~CUB~CHL~SGP~CHN~IND~USA~IDN~PAK~BRA~NGA~BGD~RUS~MEX~JPN~ETH~PHL~EGY~VNM~TUR~IRN~DEU~THA~GBR~CAN~FRA~ITA~OWID_WRL&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+    
     
   <!-- start section contact -->
   <div id="contact" class="paddsection">
@@ -104,15 +113,16 @@
     <canvas id="demo-canvas"></canvas>
   </div>
 
-  <!-- JavaScript Libraries -->
+  <!-- JavaScript Library Integrations-->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/typed/typed.js"></script>
+  <!-- Text Carousel on Main Page-->
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/magnific-popup/magnific-popup.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <!-- JavaScript Libraries for first effect-->  
+  <!-- JavaScript Libraries for first effect on Main Page-->  
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
@@ -120,11 +130,8 @@
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
-  <!-- Main Javascript File -->
+  <!-- Main Javascript File - Attach to Html Index for full functionality-->
   <script src="js/main.js"></script>
-
-  <!-- IonIcon Libraries -->  
-  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
   
 </body>
 
