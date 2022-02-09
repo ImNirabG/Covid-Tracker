@@ -22,20 +22,7 @@ if($_POST) {
                            <label><b>Visitor Email:</b></label>&nbsp;<span>".$visitor_email."</span>
                         </div>";
     }
-      
-    if(isset($_POST['email_title'])) {
-        $email_title = filter_var($_POST['email_title'], FILTER_SANITIZE_STRING);
-        $email_body .= "<div>
-                           <label><b>Reason For Contacting Us:</b></label>&nbsp;<span>".$email_title."</span>
-                        </div>";
-    }
-      
-    if(isset($_POST['concerned_department'])) {
-        $concerned_department = filter_var($_POST['concerned_department'], FILTER_SANITIZE_STRING);
-        $email_body .= "<div>
-                           <label><b>Concerned Department:</b></label>&nbsp;<span>".$concerned_department."</span>
-                        </div>";
-    }
+ 
       
     if(isset($_POST['visitor_message'])) {
         $visitor_message = htmlspecialchars($_POST['visitor_message']);
