@@ -47,7 +47,7 @@ define('SEND_AUTO_RESPONSE', 'NO'); // YES OR NO
 define('EMAIL_OUT_SUBJECT', '');
 define('EMAIL_OUT_TO', 'FIELD:Email');
 define('EMAIL_OUT_TO_NAME', 'FIELD:Name');
-define('EMAIL_OUT_FROM', '');
+define('EMAIL_OUT_FROM', 'https://formspree.io/f/mzboelly');
 define('EMAIL_OUT_FROM_NAME', '');
 
 
