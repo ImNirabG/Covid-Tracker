@@ -165,8 +165,8 @@ p {
 }
 
 #parent {
-  width: 200px;
-  height: 200px;
+  width: 33%;
+  height: 500px;
   border:solid 1px #000;
 }
 
@@ -175,7 +175,7 @@ p {
   position:relative;
   float: right;
   right:10px;
-  bottom:35px;
+  bottom:150px;
   transition: 0.5s;
 }
 #parent > button {
