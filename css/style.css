@@ -164,24 +164,7 @@ p {
   margin-bottom: 30px;
 }
 
-#parent {
-  width: 33%;
-  height: 500px;
-  border:solid 1px #000;
-}
 
-#parent > button {
-  opacity: 0.3;
-  position:relative;
-  float: right;
-  right:10px;
-  bottom:150px;
-  transition: 0.5s;
-}
-#parent > button {
-  opacity: 1;
-}  
-  
 
 .styled {
     border: 0;
