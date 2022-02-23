@@ -9,7 +9,7 @@
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
-    position:fixed; left:80px; top:60px;
+    position:absolute; left:80px; top:60px;
     border-radius: 10px;*
     background-color: rgba(220, 0, 0, 1);
     background-image: linear-gradient(to top left,
