@@ -3,12 +3,12 @@
 .styled {
     border: 0;
     line-height: 2.5;
-    padding: 0 0px;
+    padding: 0 20px;
     font-size: 16px
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
-    position:relative; left:-90px; top:-460px;
+    position:relative; left:0px; top:-460px;
     border-radius: 10px;*
     background-color: rgba(220, 0, 0, 1);
     background-image: linear-gradient(to top left,
