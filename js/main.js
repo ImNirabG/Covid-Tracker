@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Lots of Love.", "Tons of Effort.", "20000+ lines of code", "Endless nights of editing!", "The passion of 2 aspiring developers."],
+      strings: ["was developed to help you access all related data on 1 page", "is updated daily", "retrieves information from John Hopkins University, and Our World in Data", "took endless nights of editing!", "was developed with the passion of 2 aspiring developers."],
       typeSpeed: 50,
       loop: true,
     });
