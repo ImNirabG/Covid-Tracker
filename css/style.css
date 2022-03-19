@@ -15,7 +15,7 @@
   cursor: pointer;
   position: relative;
   left: -120px;
-  top: 450px;
+  bottom: 450px;
 }
 
 body {
