@@ -1,20 +1,16 @@
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
 
-.expanded { 
-   background-color: #4CAF50; 
-   border: none; 
-   color: white; 
-   padding: 15px 32px; 
-   text-align: center;
-   text-decoration: none; 
-   display: inline-block;
+.uk-button uk-button-primary uk-margin-small-right {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 16px;
-  margin: 4px 2px; 
-  cursor: pointer;
-  position: relative;
-  left: -120px;
-  bottom: 950px; }
+}
 
 
 body {
