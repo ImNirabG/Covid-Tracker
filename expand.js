@@ -6,4 +6,4 @@ button.addEventListener("click", myFunction);
 
 // Button function
 function myFunction() {
-    document.getElementById("myFrame").style.cssText = 'width: 600px !important; height: 600px !important;';
+    document.getElementById("myframe1").style.cssText = 'width: 600px !important; height: 600px !important;';
