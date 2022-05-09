@@ -1,12 +1,9 @@
-var toggleSize = true;
+// Select your button
+var button = document.getElementById("buttonexp");
 
+// Button event
+button.addEventListener("click", myFunction);
 
-$('.uk-button').on('click', function() {
-  $('iframe').animate({
-    width: toggleSize ? 356 : 640,
-    height: toggleSize ? 200 : 360
-  }, 250);
-
-  toggleSize = !toggleSize;
-
-});
+// Button function
+function myFunction() {
+    document.getElementById("myFrame").style.cssText = 'width: 600px !important; height: 600px !important;';
