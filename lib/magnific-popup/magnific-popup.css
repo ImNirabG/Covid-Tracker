@@ -45,6 +45,8 @@
   vertical-align: middle;
   margin: 0 auto;
   text-align: left;
+  width:500px;
+  height:900px;
   z-index: 1045; }
 
 .mfp-inline-holder .mfp-content,
