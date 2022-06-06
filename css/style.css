@@ -76,53 +76,8 @@ nav ul li a {
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
-}
-
-
-button {
- text-decoration: none;
- position: absolute;
- border: none;
- font-size: 14px;
- font-family: inherit;
- color: #fff;
- width: 9em;
- height: 3em;
- line-height: 2em;
- text-align: center;
- background: -webkit-gradient(linear,left top, right top,from(#03a9f4),color-stop(#f441a5),color-stop(#ffeb3b),to(#03a9f4));
- background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
- background-size: 300%;
- border-radius: 30px;
- z-index: 1;
-}
-
-button:hover {
- -webkit-animation: ani 8s linear infinite;
-         animation: ani 8s linear infinite;
- border: none;
-}
-
-@-webkit-keyframes ani {
- 0% {
-  background-position: 0%;
- }
-
- 100% {
-  background-position: 400%;
- }
-}
-
-@keyframes ani {
- 0% {
-  background-position: 0%;
- }
-
- 100% {
-  background-position: 400%;
- }
-}
-
+	
+	
 .chickensbutton {
  content: '';
  position: absolute;
