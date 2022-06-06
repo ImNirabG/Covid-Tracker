@@ -1,9 +1,6 @@
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
 
-
-
-
 body {
   background: #ffffff;
   color: #898989;
@@ -24,7 +21,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  color: #A9A9A9;
 }
 
 h2 {
@@ -76,7 +72,8 @@ nav ul li a {
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
-	
+}
+
 p {
   margin: 25px 0;
   padding: 0;
@@ -237,7 +234,7 @@ nav ul li a {
 
 /* please work */
 #header {
-  background: url("../images/home-bg6.png") repeat scroll center center  / cover;
+  background: url("../images/home-bg6.jpg") repeat scroll center center  / cover;
   opacity: 1;
   height: 100vh;
   width: 100%;
@@ -538,8 +535,6 @@ nav ul li a {
 /*  Contact
 /*-----------------------------------------------------------------------------------*/
 
-
-
 #contact {
   height: auto;
   width: 100%;
@@ -558,10 +553,6 @@ nav ul li a {
 #contact input, #contact textarea {
   width: 100%;
 }
-
-
-
-
 
 
 #contact  #sendmessage{
@@ -710,9 +701,21 @@ nav ul li a {
   .show-desktop {
     display: none;
   }
-
-	
-
-}
 }
 
+.large-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgb(150, 10, 10);
+  overflow: show;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+
+ion-icon {
+  font-size: 40px;
+  color: #b8a07e;
+}
